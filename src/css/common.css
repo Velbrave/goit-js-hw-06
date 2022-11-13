@@ -16,6 +16,7 @@ body {
 input {
   padding: 8px;
   font: inherit;
+  
 }
 
 button {
@@ -28,7 +29,15 @@ button {
   column-gap: 30px;
 }
 
+.item {
+  list-style-type: none;
+}
+
 .item__link {
   width: 160px;
-  height: 100px;
+  height: 100px; 
+}
+
+.item-text {
+font-size: 20px;
 }
